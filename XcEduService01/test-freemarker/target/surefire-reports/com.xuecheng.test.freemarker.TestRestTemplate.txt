@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.xuecheng.test.freemarker.TestRestTemplate
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.155 s <<< FAILURE! - in com.xuecheng.test.freemarker.TestRestTemplate
+test1(com.xuecheng.test.freemarker.TestRestTemplate)  Time elapsed: 2.232 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:31001/cms/page/getModel/5a754adf6abb500ad05688d9": Failed to connect to localhost/0:0:0:0:0:0:0:1:31001; nested exception is java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:31001
+	at com.xuecheng.test.freemarker.TestRestTemplate.test1(TestRestTemplate.java:22)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:31001
+	at com.xuecheng.test.freemarker.TestRestTemplate.test1(TestRestTemplate.java:22)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.xuecheng.test.freemarker.TestRestTemplate.test1(TestRestTemplate.java:22)
+

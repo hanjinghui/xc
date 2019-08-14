@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.xuecheng.manage_cms.CmsConfigRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.919 s <<< FAILURE! - in com.xuecheng.manage_cms.CmsConfigRepositoryTest
+test1(com.xuecheng.manage_cms.CmsConfigRepositoryTest)  Time elapsed: 2.159 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:31001/cms/config/getModel/5a791725dd573c3574ee333f": Failed to connect to localhost/0:0:0:0:0:0:0:1:31001; nested exception is java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:31001
+	at com.xuecheng.manage_cms.CmsConfigRepositoryTest.test1(CmsConfigRepositoryTest.java:22)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:31001
+	at com.xuecheng.manage_cms.CmsConfigRepositoryTest.test1(CmsConfigRepositoryTest.java:22)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.xuecheng.manage_cms.CmsConfigRepositoryTest.test1(CmsConfigRepositoryTest.java:22)
+
